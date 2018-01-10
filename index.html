@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false" type="text/javascript"></script> 
+
+    <title>Cab in yoUr Tab Enabled</title>
+    
+    <!--style>
+        body {
+            padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+        }
+    </style-->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/docs.css" rel="stylesheet">
+</head>
+
+<body data-spy="scroll" data-target=".subnav" data-offset="50">
+
+<div class="container">
+    <div class="row">
+<div class="header"></div>
+    </div>
+</div>
+
+<div class="container">
+        <div id="content"></div>
+    </div>
+
+    <div class="row">
+        <div id="content2" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"></div>
+    </div>
+
+    <footer class="footer">
+        <p class="pull-right" onClick="window.history.back();">Back</p>
+
+     </footer>
+
+</div>
+
+<script src="lib/jquery-1.7.2.min.js"></script>
+<script src="lib/underscore-min.js"></script>
+<script src="lib/backbone-min.js"></script>
+<script src="lib/bootstrap.js"></script>
+
+<!-- NOTE: memorystore.js will set up an in-memory datastore to allow you to experience the app without setting up
+back-end infrastructure. All the changes you make to the data will be lost the next time you access the app or hit Refresh.
+To use the app with a persistent RESTful back-end (provided in the GitHub repo), simply comment out the line below. -->
+<!--script src="js/memorystore.js"></script-->
+
+<script src="js/utils.js"></script>
+<script src="js/models/models.js"></script>
+<script src="js/views/paginator.js"></script>
+<script src="js/views/header.js"></script>
+<script src="js/views/map.js"></script>
+<script src="js/views/winelist.js"></script>
+<script src="js/views/winedetails.js"></script>
+<script src="js/views/cancellationdetails.js"></script>
+<script src="js/views/bookinglist.js"></script>
+<script src="js/views/bookingdetails.js"></script>
+<script src="js/views/appointmentlist.js"></script>
+<script src="js/views/appointmentdetails.js"></script>
+<script src="js/views/carlist.js"></script>
+<script src="js/views/cardetails.js"></script>
+<script src="js/views/customerdetails.js"></script>
+<script src="js/views/customerlist.js"></script>
+<script src="js/views/ciddetails.js"></script>
+<script src="js/views/invoicedetails.js"></script>
+<script src="js/views/diddetails.js"></script>
+<script src="js/views/driverlist.js"></script>
+<script src="js/views/driverdetails.js"></script>
+<script src="js/views/clogindetails.js"></script>
+<script src="js/views/dlogindetails.js"></script>
+<script src="js/views/about.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
