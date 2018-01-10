@@ -1,0 +1,54 @@
+<div class="row">
+
+    <form class="form-horizontal span12">
+
+
+        <fieldset>
+
+            <legend>Booking Details</legend>
+            <br/>
+
+            <div class="row">
+                <div class="span9">
+
+                    <div class="control-group">
+                        <label for="bdate" class="control-label">Booking date:</label>
+
+                        <div class="controls">
+                            <input id="bdate" name="bdate" type="text" value="<%= bdate === null ? '' : bdate %>" class="span1"
+                                   disabled/>
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <label for="tcost" class="control-label">Total Revenue:</label>
+
+                        <div class="controls">
+                            <input type="text" id="tcost" name="tcost" value="<%= qwert === null ? '': tcost %>" class="span1"
+                                   disabled/>                            
+                        </div>
+                    </div>
+
+                    
+                </div>
+
+
+            </div>
+
+        </fieldset>
+
+        
+
+    </form>
+
+</div>
+
+<div class="row status-bar">
+    <div class="span12">
+        <div class="alert alert-success" style="display: none">
+            <b>Success!</b> Wine saved successfully
+        </div>
+    </div>
+</div>
+
+

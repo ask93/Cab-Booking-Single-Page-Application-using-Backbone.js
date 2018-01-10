@@ -1,0 +1,119 @@
+<div class="row">
+
+    <form class="form-horizontal span12">
+
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+
+        <fieldset>
+
+            <legend><div style="margin-left:120px">Customer Details</div></legend>
+            <br/>
+
+                    <div class="control-group">
+                        <label for="cid" class="control-label">Id:</label>
+
+                        <div class="controls">
+                            <input id="cid" name="cid" type="text" value="<%= cid === null ? '' : cid %>" class="span1"
+                                   disabled/>
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <label for="cname" class="control-label">Name:</label>
+
+                        <div class="controls">
+                            <input type="text" id="cname" name="cname" value="<%= cname %>" class="span3"/>
+                            <span class="help-inline"></span>
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <label for="cphone" class="control-label">Phone:</label>
+
+                        <div class="controls">
+                            <input type="text" id="cphone" name="cphone" value="<%= cphone %>" class="span3"/>
+                            <span class="help-inline"></span>
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <label for="csex" class="control-label">Sex:</label>
+
+                        <div class="controls">
+                            <input type="text" id="csex" name="csex" value="<%= csex %>" class="span3"/>
+                            <span class="help-inline"></span>
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <label for="cemail" class="control-label">Email:</label>
+
+                        <div class="controls">
+                            <input type="text" id="cemail" name="cemail" value="<%= cemail %>" class="span3"/>
+                            <span class="help-inline"></span>
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <label for="caddress" class="control-label">Address:</label>
+
+                        <div class="controls">
+                            <input type="text" id="caddress" name="caddress" value="<%= caddress %>" class="span3"/>
+                            <span class="help-inline"></span>
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <label for="clogin" class="control-label">Login Name:</label>
+
+                        <div class="controls">
+                            <input type="text" id="clogin" name="clogin" value="<%= clogin %>" class="span3"/>
+                            <span class="help-inline"></span>
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <label for="cpassword" class="control-label">Password:</label>
+
+                        <div class="controls">
+                            <input type="text" id="cpassword" name="cpassword" value="<%= cpassword %>" class="span3"/>
+                            <span class="help-inline"></span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="span4 well" style="margin-left:50px">
+                        <p style="margin-left:55px"><img id="cpicture" width="180" src="<%= cpicture === null ? 'pics/generic.jpg' : 'pics/' + cpicture %>"/></p>
+
+                        
+                    </div>
+            
+                    </div>
+            </div>
+
+        </fieldset>
+
+        <div class="span4 form-actions" id="diff" style="margin-left:30px">
+            <a href="#" id="diff" class="btn btn-primary save" style="margin-left:90px">Save</a>
+            <a href="#" class="btn delete" onClick="window.history.back();">Cancel</a>
+        </div>
+
+    </form>
+
+</div>
+
+<div class="row status-bar">
+    <div class="span12">
+        <div class="alert alert-success" style="display: none">
+            <b>Success!</b> Wine saved successfully
+        </div>
+    </div>
+</div>
+
+

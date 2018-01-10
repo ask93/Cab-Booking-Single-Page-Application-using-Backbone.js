@@ -1,0 +1,59 @@
+<div class="row">
+
+    <form class="form-horizontal">
+
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            
+
+        <fieldset>
+            <legend><div style="margin-left:170px">Driver Login</div></legend>
+            <br/>
+
+                
+                    <div class="control-group">
+                        <label for="dlogin" class="control-label">Login Name:</label>
+
+                        <div class="controls">
+                            <input type="text" id="dlogin" name="dlogin" value="<%= dlogin %>"/>
+                            <span class="help-inline"></span>
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <label for="dpassword" class="control-label">Password:</label>
+
+                        <div class="controls">
+                            <input type="password" id="dpassword" name="dpassword" value="<%= dpassword %>"/>
+                            <span class="help-inline"></span>
+                        </div>
+                    </div>
+
+               
+
+            
+        </fieldset>
+
+        <div class="form-actions span2"  style="margin-left:60px">
+            <a href="#customers/login"  style="margin-left:-50px" class="btn span2 btn-primary save">Login</a>
+            <!-- <a href="#drivers/add" class="btn signup">Sign up</a> -->
+            
+        </div>
+
+    </form>
+
+</div>
+
+<div class="status-bar">
+    <div class="span12">
+        <div class="alert alert-success" style="display: none">
+            <b>Success!</b> Wine saved successfully
+        </div>
+    </div>
+</div>
+
+

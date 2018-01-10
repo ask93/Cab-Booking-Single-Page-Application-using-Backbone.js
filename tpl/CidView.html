@@ -1,0 +1,54 @@
+<div class="row">
+
+    <form class="form-horizontal">
+
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+
+
+        <fieldset>
+
+            <legend><div style="margin-left:120px">Find Customer</div></legend>
+            <br/>
+
+                    <div class="control-group">
+                        <label for="cid" class="control-label">Customer ID: </label>
+
+                        <div class="controls">
+                            <input type="text" id="cid" name="cid" value="<%= cid %>"/>
+                            <span class="help-inline"></span>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </fieldset>
+
+        <div class="form-actions">
+            <a href="#customer/search" style="margin-left:160px" class="btn btn-primary save">Search</a>
+            <a href="#customers/add" style="margin-left:10px" class="btn signup">Cancel</a>
+            
+        </div>
+
+    </form>
+
+</div>
+
+<div class="row status-bar">
+    <div class="span12">
+        <div class="alert alert-success" style="display: none">
+            <b>Success!</b> Wine saved successfully
+        </div>
+    </div>
+</div>
+
+
